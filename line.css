@@ -1,0 +1,45 @@
+
+body {
+    font: 10px sans-serif;
+}
+
+.axis path, .axis line {
+    fill: none;
+    stroke: #A59891;
+    shape-rendering: crispEdges;
+}
+
+.x.axis path {
+    display: none;
+}
+
+.line {
+    fill: none;
+    stroke: #0050FF;
+    stroke-width: 3.5px;
+}
+
+#headline {
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+figcaption {
+  float: right;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  color: #A59891;
+}
+
+#methodology {
+    margin-top: 2em;
+    border: 1px solid black;
+    font-size: 11px;
+    width: 100%;
+    text-align: center;
+    padding: 0.5em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
